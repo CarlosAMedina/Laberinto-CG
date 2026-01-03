@@ -1,0 +1,130 @@
+/* ==================== ESTILOS GLOBALES ==================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    background: #1a1a2e;
+}
+
+#gameCanvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* ==================== PANEL DE CONTROLES ==================== */
+#ui {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    z-index: 100;
+}
+
+#ui h2 {
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+/* ==================== PANTALLA DE VICTORIA ==================== */
+#victory {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(76, 175, 80, 0.95);
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    display: none;
+    z-index: 200;
+    box-shadow: 0 0 50px rgba(76, 175, 80, 0.5);
+}
+
+#victory h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#victory button {
+    background: white;
+    color: #4CAF50;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#victory button:hover {
+    background: #f0f0f0;
+}
+
+/* ==================== SELECTOR DE NIVELES ==================== */
+#levelSelect {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(44, 62, 80, 0.95);
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    display: none;
+    z-index: 300;
+    text-align: center;
+}
+
+.level-button {
+    border: none;
+    padding: 20px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.level-button:hover {
+    transform: scale(1.05);
+}
+
+.level-1 {
+    background: #27ae60;
+    color: white;
+}
+
+.level-2 {
+    background: #f39c12;
+    color: white;
+}
+
+.level-3 {
+    background: #e74c3c;
+    color: white;
+}
+
+.cancel-button {
+    background: white;
+    color: #2c3e50;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.cancel-button:hover {
+    background: #ecf0f1;
+}

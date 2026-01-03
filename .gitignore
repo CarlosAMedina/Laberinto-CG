@@ -1,0 +1,20 @@
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules (si decides usar npm en el futuro)
+node_modules/
+package-lock.json
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
