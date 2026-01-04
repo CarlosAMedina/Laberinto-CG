@@ -32,7 +32,7 @@ maze-game/
 └── README.md              # Este archivo
 ```
 
-## 🎮 Controles
+## Controles
 
 - **Flechas del Teclado**: Inclinar el laberinto
   - ⬆️ Arriba: Inclinar adelante
@@ -43,7 +43,7 @@ maze-game/
 - **1, 2, 3**: Cambiar entre niveles
 - **M**: Abrir menú de selección de niveles
 
-## 🎯 Características
+## Características
 
 ### Elementos Visuales
 
@@ -100,14 +100,14 @@ Edita `css/styles.css` para modificar:
 
 ## Conceptos de CG Implementados
 
-- ✅ Transformaciones geométricas (matrices)
-- ✅ Pipeline gráfico (vertex/fragment shaders)
-- ✅ Mallas poligonales generadas
-- ✅ Iluminación (Phong/Blinn-Phong)
-- ✅ Proyección en perspectiva
-- ✅ Renderizado en tiempo real
-- ✅ Simulación física básica
-- ✅ Detección de colisiones
+- Transformaciones geométricas (matrices)
+- Pipeline gráfico (vertex/fragment shaders)
+- Mallas poligonales generadas
+- Iluminación (Phong/Blinn-Phong)
+- Proyección en perspectiva
+- Renderizado en tiempo real
+- Simulación física básica
+- Detección de colisiones
 
 ## Solución de Problemas
 
