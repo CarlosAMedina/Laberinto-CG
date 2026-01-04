@@ -1,19 +1,19 @@
-# 🎮 Laberinto 3D - Proyecto Final de Computación Gráfica
+# Laberinto 3D - Proyecto Final de Computación Gráfica
 
 Juego 3D interactivo tipo laberinto con bola, desarrollado con Three.js y Cannon.js.
 
-## 📋 Descripción
+## Descripción
 
 Mini-juego tridimensional donde el usuario controla indirectamente el movimiento de una esfera mediante la inclinación del plano base. El objetivo es guiar la bola desde un punto inicial hasta una meta, evitando trampas y paredes.
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **Three.js (r128)**: Motor de renderizado 3D
 - **Cannon.js (0.6.2)**: Motor de física
 - **JavaScript ES6+**: Módulos nativos
 - **HTML5 & CSS3**: Interfaz de usuario
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 maze-game/
@@ -45,18 +45,7 @@ maze-game/
 
 ## 🎯 Características
 
-### ✅ Implementadas
-
-- ✅ Renderizado 3D en tiempo real
-- ✅ Física realista (gravedad, colisiones, fricción)
-- ✅ 3 niveles con dificultad progresiva
-- ✅ Sistema de trampas (agujeros mortales)
-- ✅ Iluminación dinámica con sombras
-- ✅ Cámara en perspectiva que sigue la bola
-- ✅ Interfaz de usuario completa
-- ✅ Sistema de victoria y progresión
-
-### 🎨 Elementos Visuales
+### Elementos Visuales
 
 - Bola roja con efecto metálico
 - Laberinto con paredes grises
@@ -64,26 +53,14 @@ maze-game/
 - Trampas rojas con efecto de brillo
 - Sombras en tiempo real
 
-## 🚀 Cómo Usar
+## Cómo Usar
 
 ### Opción 1: Abrir directamente
 1. Abre `index.html` en tu navegador (Chrome, Firefox, Edge)
 2. ¡Listo para jugar!
 
-### Opción 2: Servidor local (recomendado para desarrollo)
-```bash
-# Con Python 3
-python -m http.server 8000
 
-# Con Node.js (http-server)
-npx http-server
-
-# Con PHP
-php -S localhost:8000
-```
-Luego abre: `http://localhost:8000`
-
-## 🔧 Personalización
+## Personalización
 
 ### Modificar Configuración
 
@@ -121,18 +98,18 @@ Edita `css/styles.css` para modificar:
 - Tamaño de botones
 - Posición de elementos UI
 
-## 📦 Conceptos de CG Implementados
+## Conceptos de CG Implementados
 
 - ✅ Transformaciones geométricas (matrices)
 - ✅ Pipeline gráfico (vertex/fragment shaders)
-- ✅ Mallas poligonales generadas programáticamente
+- ✅ Mallas poligonales generadas
 - ✅ Iluminación (Phong/Blinn-Phong)
 - ✅ Proyección en perspectiva
 - ✅ Renderizado en tiempo real
 - ✅ Simulación física básica
 - ✅ Detección de colisiones
 
-## 🐛 Solución de Problemas
+## Solución de Problemas
 
 ### El juego no carga
 - Verifica que estés usando un servidor local (no `file://`)
@@ -147,26 +124,7 @@ Edita `css/styles.css` para modificar:
 - Asegúrate de hacer click en la ventana del juego
 - Verifica que las teclas no estén siendo bloqueadas
 
-## 📝 Notas de Desarrollo
+## Notas de Desarrollo
 
 Este proyecto utiliza **módulos ES6 nativos**, por lo que necesita ejecutarse desde un servidor (no funciona con `file://` debido a políticas CORS).
 
-## 👨‍💻 Desarrollo Futuro
-
-Posibles mejoras:
-- [ ] Texturas realistas
-- [ ] Sistema de coleccionables
-- [ ] Cronómetro y récords
-- [ ] Efectos de sonido
-- [ ] Partículas y efectos visuales
-- [ ] Más niveles
-- [ ] Power-ups
-- [ ] Modo multijugador
-
-## 📄 Licencia
-
-Proyecto educativo - Libre para uso académico
-
----
-
-**Desarrollado con ❤️ para Computación Gráfica**
